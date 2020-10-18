@@ -1,0 +1,63 @@
+body{
+background-color: #10A881;
+}
+.vessel{
+display: flex;
+align-content: center;
+
+ /*
+ by default flex-direction: row;
+  flex-direction: column; */
+  /* for making height according to its content
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch (equal height by-default) */
+}
+.vessel div, .vessel-2 div{
+ border: 1px solid black;
+ padding: 10px;
+}
+.pack-1{
+  flex: 3; /* for making column bigger */
+  order: 2; /*for changings position of cols */
+  /* margin: 5px 10px; */
+  align-self: center;
+
+  }
+.pack-2{
+  flex: 2;
+  order: 3;
+  align-self: flex-end;
+  /* margin: 5px 10px; */
+}
+.pack-3{
+  flex: 1;
+  order: 1;
+        /* margin: 5px 10px; */
+flex-grow: 10;   /* flex-grow property by-default value 0 */
+}
+
+.vessel-2{
+  display: flex;
+  justify-content: space-between;
+
+  /* by-default flex-wrap: nowrap; */
+/* flex-wrap:wrap-reverse; */
+  flex-wrap: wrap;
+  /* for changing whole content and this is used with width
+  justify-content: flex-start (by-default);
+  justify-content: flex-end;
+  justify-content: center
+  justify-content: space-around */
+}
+.pack{
+/*  width: 20%; or flex-basis */
+/*  flex-basis: 20%; */
+/*  flex-basis: 25%;
+  margin: 0 10px; */
+
+/* for flex wrap */
+    flex-basis: 45%;
+    margin: 10px 5px; /* t,b l,r */
+}
