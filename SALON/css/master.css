@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+
+}
+.navbar{
+  background-color: black;
+  height:100px; padding-top: 10px;
+  border: none;
+  border-radius: 0;
+
+}
+.navbar-brand{
+  padding-top: 0px;
+}
+
+
+
+#myCarousel{
+  margin-top: -20px;
+}
+
+
+/* About Section */
+
+
+#about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+/* About Section Close */
+
+/* Top rated Venues */
+
+#top-rated{
+  background-image: url("img/11.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+}
+#top-rated h2{
+  color: #C09B43;
+  font-weight: bold;
+
+}
+
+#one{
+  border: solid 2px #C09B43;
+  background-color: black;
+
+}
+#one h3{
+  margin-top: -0px;
+  border-top: solid 2px #C09B43;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  background-color: black;
+  color:#C09B43 ;
+}
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 20px;
+    color:#fff;
+  background-color: black;
+}
+
+footer ul li a {
+  color: #C09B43;
+}
